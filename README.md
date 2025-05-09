@@ -1,1 +1,6 @@
 # Facebook-Network-Analysis
+This project involves the analysis of a large-scale Facebook page network using graph theory and network science techniques. The dataset, obtained from the Stanford Large Network Dataset Collection (SNAP), represents a social graph where each node is a Facebook page (focused on companies or organizations), and each edge indicates mutual "likes" between pages. The objective of the analysis is to uncover structural patterns, influential nodes, communities, and key metrics that define the overall topology and behavior of the network.
+
+Through this analysis, we compute centrality measures (degree, closeness, betweenness), identify densely connected subgraphs and communities using algorithms like Louvain or Label Propagation, and visualize the network for better interpretability. We also explore real-world implications such as the influence of highly connected nodes, the presence of clusters (e.g., pages from similar industries), and how network properties affect information spread and group dynamics.
+
+This network analysis provides valuable insights into the structure and interaction patterns of online communities, helping us understand how entities on social media interconnect, influence one another, and form organic clusters based on shared interests or domains.
